@@ -14,6 +14,7 @@ public class num11021 {
         for(int i=0;i<times;i++){
             System.out.println("Case #"+(i+1)+": "+results[i]);
         }
+        stdln.close();
     }
     
 }
