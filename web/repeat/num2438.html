@@ -1,27 +1,42 @@
 <html>
     <body>
         import java.io.BufferedReader;
+        <br/>
 import java.io.InputStreamReader;
+<br/>
 import java.io.IOException;
+<br/>
+<br/>
+
+
 
 
 public class num2438 {
-    public static void main(String[] args) throws IOException
-    {
+    <br/>
+    public static void main(String[] args) throws IOException    {
+        <br/>
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        <br/>
         StringBuilder sb=new StringBuilder();
-
+        <br/>
         int n=Integer.parseInt(br.readLine());
-
+        <br/>
         for(int j=0;j<n;j++){
+            <br/>
         for(int i=0;i<j+1;i++){
+            <br/>
             sb.append("*");
+            <br/>
         }
+        <br/>
         sb.append("\n");
+        <br/>
     }
+    <br/>
     System.out.print(sb.toString());
-
+    <br/>
     }
+    <br/>
 }
 
 

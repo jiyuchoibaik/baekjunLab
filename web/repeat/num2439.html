@@ -1,29 +1,30 @@
 <html>
     <body>
         import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
+        <br/>
+import java.io.InputStreamReader;<br/>
+import java.io.IOException;<br/>
 
-public class num2439 {
+public class num2439 {<br/>
 
-    public static void main(String[] args) throws IOException{
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb=new StringBuilder();
+    public static void main(String[] args) throws IOException{<br/>
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));<br/>
+        StringBuilder sb=new StringBuilder();<br/>
 
-        int n=Integer.parseInt(br.readLine());
+        int n=Integer.parseInt(br.readLine());<br/>
 
-        for(int i=0;i<n;i++){
-            for(int j=n;j>i+1;j--){
-                sb.append(" ");
-            }
-            for(int j=0;j<i+1;j++){
-                sb.append("*");
-            }
-            sb.append("\n");
-        }
-        System.out.print(sb.toString());
+        for(int i=0;i<n;i++){<br/>
+            for(int j=n;j>i+1;j--){<br/>
+                sb.append(" ");<br/>
+            }<br/>
+            for(int j=0;j<i+1;j++){<br/>
+                sb.append("*");<br/>
+            }<br/>
+            sb.append("\n");<br/>
+        }<br/>
+        System.out.print(sb.toString());<br/>
 
-    }
+    }<br/>
     
 }
 
